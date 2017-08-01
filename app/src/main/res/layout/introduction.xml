@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/intro_head"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+    <ImageView
+        android:layout_marginLeft="20dp"
+        android:layout_height="100dp"
+        android:layout_width="0dp"
+        android:layout_weight="0.3"
+        android:background="@drawable/image1"
+        />
+    <TextView
+        android:id="@+id/intro"
+        android:text="@string/introduction"
+        android:textSize="20sp"
+        android:layout_height="100dp"
+        android:layout_width="0dp"
+        android:layout_weight="0.7"
+        android:gravity="center"
+        />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/intro_divider"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@id/intro_head"
+        android:background="@color/colorPrimary"
+        />
+
+    <Button
+        android:id="@+id/intro_sure"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/yes"
+        android:textSize="20sp"
+        android:gravity="bottom|center"
+        android:background="@color/colorPrimary"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+        <TextView
+        android:id="@+id/intro_body"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/intro_divider"
+        android:text="@string/nest_description"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:layout_above="@id/intro_sure"
+        android:scrollbars="vertical"
+            android:maxLines="5"
+            />
+
+</RelativeLayout>

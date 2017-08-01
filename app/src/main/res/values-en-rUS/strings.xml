@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="nest_description">Connect your Danale with nest.Once connect,you may perform more actions.\nCombined with existing devices on our platform, Danale will bring you to experience a more intelligent life.</string>
+    <string name="nest">NEST</string>
+    <string name="honeywell">honeywell</string>
+    <string name="hue">hue</string>
+    <string name="yes">allow</string>
+    <string name="no">cancel</string>
+    <string name="introduction">NEST introduction</string>
+    <string name="danale">danale+</string>
+</resources>

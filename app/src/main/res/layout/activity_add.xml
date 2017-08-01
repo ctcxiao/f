@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardElevation="10dp"
+        android:layout_margin="5dp"
+        app:cardCornerRadius="5dp"
+        app:cardBackgroundColor="@color/cardview_dark_background"
+        android:layout_gravity="center"
+        >
+    <Button
+        android:id="@+id/nest"
+        android:transitionName="share_nest"
+        android:text="@string/nest"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:background="@color/cardview_dark_background"
+        />
+    </android.support.v7.widget.CardView>
+    <Button
+        android:id="@+id/honeywell"
+        android:text="@string/honeywell"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/cardview_dark_background"
+        android:layout_margin="5dp"
+
+
+        />
+    <Button
+        android:id="@+id/hue"
+        android:text="@string/hue"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/cardview_dark_background"
+        android:layout_margin="5dp"
+
+        />
+
+</LinearLayout>

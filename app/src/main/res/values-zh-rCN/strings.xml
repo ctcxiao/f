@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="nest_description">NEST是一家做温控器以及摄像头的公司</string>
+    <string name="nest">NEST</string>
+    <string name="honeywell">honeywell</string>
+    <string name="hue">菲律浦</string>
+    <string name="yes">确定</string>
+    <string name="no">取消</string>
+    <string name="introduction">NEST introduction</string>
+    <string name="danale">danale+</string>
+</resources>
